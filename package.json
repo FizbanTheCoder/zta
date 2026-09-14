@@ -1,0 +1,17 @@
+{
+  "name": "zta-learner",
+  "version": "0.2.0",
+  "description": "Zero Token Architecture learner for OpenCode (optional Cursor): infer once, export script/skill, run without inference",
+  "type": "module",
+  "bin": {
+    "zta": "./cli/zta.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "install:local": "node scripts/install.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}

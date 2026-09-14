@@ -1,0 +1,8 @@
+{
+  "session_id": "sess-fixture",
+  "cwd": "/tmp/demo-project",
+  "tool_name": "Shell",
+  "tool_input": {
+    "command": "npm test"
+  }
+}

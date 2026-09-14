@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "hooks": {
+    "postToolUse": [
+      {
+        "command": "./hooks/zta/trace.mjs",
+        "timeout": 10
+      }
+    ],
+    "stop": [
+      {
+        "command": "./hooks/zta/propose.mjs",
+        "timeout": 10,
+        "loop_limit": 1
+      }
+    ]
+  }
+}
